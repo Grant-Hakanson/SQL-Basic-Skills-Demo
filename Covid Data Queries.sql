@@ -78,8 +78,7 @@ Join PortfolioProject..CovidVaccinations vac
 Where dea.continent is not null
 order by 2,3
 
--- USE CTE (number of columns in CTE need to be the same as the number of colums in the parinthesis, also do not incldude order by in the parathises) 
-
+-- USE CTE 
 With popvsvac (continent, location, date, population, new_vaccinations, Running_Vaccination_totals)
 as 
 (
