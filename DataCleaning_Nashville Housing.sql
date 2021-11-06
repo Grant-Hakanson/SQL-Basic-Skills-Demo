@@ -1,8 +1,5 @@
 
 
--- Cleaning Data in SQL Queries
-*/
-
 select*
 From PortfolioProject.dbo.nasvhouz
 
