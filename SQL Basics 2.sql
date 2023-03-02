@@ -30,12 +30,12 @@ id int primary key,
 title Varchar(50) Unique, 
 released int Not Null, 
 actor varchar (30),
-director Varchar (30) default "ah la la", 
+director Varchar (30) default "none", 
 Box_Office decimal (5,1) Default "0.0"
 ); 
 
 # Inserting Data into a created table
-Insert into Contraint_Bond Values( 1,"big Booty Bertha", 1965, "Shively6", "Mikey Ice", 59.6);
+Insert into Contraint_Bond Values( 1,"Just Betty", 1965, "James Yike", "Mike Brawn", 59.6);
 
 Select * from Contraint_Bond;
 
@@ -48,8 +48,8 @@ Alter table Contraint_Bond Drop Critic_name;
 
 	# Altering table data
     Update Contraint_Bond
-    set title= "big Booty Beth"
-    Where title= "big Booty Bertha";
+    set title= "Just Bobby"
+    Where title= "Just Betty";
 
 Select * from contraint_bond;
 
